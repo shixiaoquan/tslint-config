@@ -1,11 +1,4 @@
 module.exports = {
-  linterOptions: {
-    exclude: [
-      'dist/**',
-      'tmp/**',
-      'node_modules/**',
-    ],
-  },
   rules: {
     'class-name': true,
     'member-access': [true, 'no-public'],
