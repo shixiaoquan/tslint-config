@@ -1,0 +1,29 @@
+{
+  "name": "tslint-config-haifengfe",
+  "version": "0.1.0",
+  "main": "tslint.js",
+  "description": "TSlint for HaiFengFE",
+  "files": [
+    "tslint.js",
+    "README.md"
+  ],
+  "keywords": [
+    "tslint",
+    "haifengfe"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": "git@github.com:HaiFengFE/tslint-config-haifengfe.git",
+  "author": "HaiFengFE",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.0",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/prompt-cli": "^7.5.0",
+    "@commitlint/travis-cli": "^7.5.0",
+    "husky": "^1.3.1"
+  }
+}
