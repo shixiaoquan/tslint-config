@@ -1,6 +1,6 @@
 {
   "name": "@haifeng-fe/tslint-config",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "main": "tslint.js",
   "description": "TSlint for HaiFengFE",
   "files": [
